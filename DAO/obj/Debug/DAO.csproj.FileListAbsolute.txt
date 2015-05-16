@@ -1,0 +1,16 @@
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\DAO\bin\Debug\DAO.dll.config
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\DAO\bin\Debug\DAO.dll
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\DAO\bin\Debug\DAO.pdb
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\DAO\bin\Debug\DTO.dll
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\DAO\bin\Debug\DTO.pdb
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\DAO\obj\Debug\DAO.dll
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\DAO\obj\Debug\DAO.pdb
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\bin\Debug\DAO.dll.config
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\bin\Debug\DAO.dll
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\bin\Debug\DAO.pdb
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\bin\Debug\DTO.dll
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\bin\Debug\DTO.pdb
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\obj\Debug\DAO.dll
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\obj\Debug\DAO.pdb

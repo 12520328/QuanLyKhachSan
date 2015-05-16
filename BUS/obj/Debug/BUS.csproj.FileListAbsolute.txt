@@ -1,0 +1,18 @@
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\bin\Debug\BUS.dll
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\bin\Debug\BUS.pdb
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\bin\Debug\DAO.dll
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\bin\Debug\DTO.dll
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\bin\Debug\DAO.pdb
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\bin\Debug\DTO.pdb
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\obj\Debug\BUS.dll
+E:\Documents\Nhập môn CNPM\XDPMW_QL_KHACHSAN\Sourcode\BUS\obj\Debug\BUS.pdb
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\bin\Debug\BUS.dll
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\bin\Debug\BUS.pdb
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\bin\Debug\DAO.dll
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\bin\Debug\DTO.dll
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\bin\Debug\DAO.pdb
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\bin\Debug\DTO.pdb
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\obj\Debug\BUS.dll
+E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\obj\Debug\BUS.pdb
