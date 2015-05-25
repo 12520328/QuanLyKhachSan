@@ -74,6 +74,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connector.cs" />
     <Compile Include="crpInDichVu.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -104,6 +105,32 @@
       <DependentUpon>Baocaodatphong.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Data Transfer Object\BangGiaDTO.cs" />
+    <Compile Include="Data Transfer Object\ChinhSachPhuThuDTO.cs" />
+    <Compile Include="Data Transfer Object\ChiTietBangGiaDTO.cs" />
+    <Compile Include="Data Transfer Object\ChiTietDatPhongDTO.cs" />
+    <Compile Include="Data Transfer Object\ChiTietHoaDonDTO.cs" />
+    <Compile Include="Data Transfer Object\ChiTietThuePhongDTO.cs" />
+    <Compile Include="Data Transfer Object\ChuyenPhongDTO.cs" />
+    <Compile Include="Data Transfer Object\DatPhongDTO.cs" />
+    <Compile Include="Data Transfer Object\DichVuDTO.cs" />
+    <Compile Include="Data Transfer Object\DonViTinhDTO.cs" />
+    <Compile Include="Data Transfer Object\HoaDonDTO.cs" />
+    <Compile Include="Data Transfer Object\HuyDatPhongDTO.cs" />
+    <Compile Include="Data Transfer Object\KhachHangDTO.cs" />
+    <Compile Include="Data Transfer Object\KhuyenMaiDTO.cs" />
+    <Compile Include="Data Transfer Object\LoaiGiaDTO.cs" />
+    <Compile Include="Data Transfer Object\LoaiPhongDTO.cs" />
+    <Compile Include="Data Transfer Object\NguoiDungDTO.cs" />
+    <Compile Include="Data Transfer Object\NhomDichVu.cs" />
+    <Compile Include="Data Transfer Object\PhongDTO.cs" />
+    <Compile Include="Data Transfer Object\QuanLyVatTuDTO.cs" />
+    <Compile Include="Data Transfer Object\SuDungDichVuDTO.cs" />
+    <Compile Include="Data Transfer Object\TangLauDTO.cs" />
+    <Compile Include="Data Transfer Object\ThuePhongDTO.cs" />
+    <Compile Include="Data Transfer Object\TinhTrangDatPhongDTO.cs" />
+    <Compile Include="Data Transfer Object\TinhTrangPhongDTO.cs" />
+    <Compile Include="Data Transfer Object\VatTuDTO.cs" />
     <Compile Include="FormAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,46 +239,46 @@
     <Compile Include="InHoaDon.Designer.cs">
       <DependentUpon>InHoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="Màn Hình\frmLogIn.cs">
+    <Compile Include="GUI Layer\frmLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Màn Hình\frmLogIn.Designer.cs">
+    <Compile Include="GUI Layer\frmLogIn.Designer.cs">
       <DependentUpon>frmLogIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Màn Hình\frmMain.cs">
+    <Compile Include="GUI Layer\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Màn Hình\frmMain.Designer.cs">
+    <Compile Include="GUI Layer\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Màn Hình\frmQuanLyPhong.cs">
+    <Compile Include="GUI Layer\frmQuanLyPhong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Màn Hình\frmQuanLyPhong.Designer.cs">
+    <Compile Include="GUI Layer\frmQuanLyPhong.Designer.cs">
       <DependentUpon>frmQuanLyPhong.cs</DependentUpon>
     </Compile>
-    <Compile Include="Màn Hình\frmQuanLyTangLau.cs">
+    <Compile Include="GUI Layer\frmQuanLyTangLau.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Màn Hình\frmQuanLyTangLau.Designer.cs">
+    <Compile Include="GUI Layer\frmQuanLyTangLau.Designer.cs">
       <DependentUpon>frmQuanLyTangLau.cs</DependentUpon>
     </Compile>
-    <Compile Include="Màn Hình\SplashScreen1.cs">
+    <Compile Include="GUI Layer\SplashScreen1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Màn Hình\SplashScreen1.Designer.cs">
+    <Compile Include="GUI Layer\SplashScreen1.Designer.cs">
       <DependentUpon>SplashScreen1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Màn Hình\ucMenu.cs">
+    <Compile Include="GUI Layer\ucMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Màn Hình\ucMenu.Designer.cs">
+    <Compile Include="GUI Layer\ucMenu.Designer.cs">
       <DependentUpon>ucMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Màn Hình\WaitForm1.cs">
+    <Compile Include="GUI Layer\WaitForm1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Màn Hình\WaitForm1.Designer.cs">
+    <Compile Include="GUI Layer\WaitForm1.Designer.cs">
       <DependentUpon>WaitForm1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -330,25 +357,25 @@
     <EmbeddedResource Include="InHoaDon.resx">
       <DependentUpon>InHoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Màn Hình\frmLogIn.resx">
+    <EmbeddedResource Include="GUI Layer\frmLogIn.resx">
       <DependentUpon>frmLogIn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Màn Hình\frmMain.resx">
+    <EmbeddedResource Include="GUI Layer\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Màn Hình\frmQuanLyPhong.resx">
+    <EmbeddedResource Include="GUI Layer\frmQuanLyPhong.resx">
       <DependentUpon>frmQuanLyPhong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Màn Hình\frmQuanLyTangLau.resx">
+    <EmbeddedResource Include="GUI Layer\frmQuanLyTangLau.resx">
       <DependentUpon>frmQuanLyTangLau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Màn Hình\SplashScreen1.resx">
+    <EmbeddedResource Include="GUI Layer\SplashScreen1.resx">
       <DependentUpon>SplashScreen1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Màn Hình\ucMenu.resx">
+    <EmbeddedResource Include="GUI Layer\ucMenu.resx">
       <DependentUpon>ucMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Màn Hình\WaitForm1.resx">
+    <EmbeddedResource Include="GUI Layer\WaitForm1.resx">
       <DependentUpon>WaitForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -406,6 +433,10 @@
   <ItemGroup>
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business Logic Layer\" />
+    <Folder Include="Data Access Layer\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

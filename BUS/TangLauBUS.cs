@@ -10,18 +10,18 @@ namespace BUS
 {
     public class TangLauBUS
     {
-        TangLauDAO _tanglauDAO = new TangLauDAO();
+        //TangLauDAO _tanglauDAO = new TangLauDAO();
 
-        public IList<TangLauDTO> DanhSachTangLau()
-        {
-            try
-            {
-                return _tanglauDAO.DanhSachTangLau();
-            }
-            catch
-            {
-                throw new Exception("Error!");
-            }
-        }
+        //public IList<TangLauDTO> DanhSachTangLau()
+        //{
+        //    try
+        //    {
+        //        return _tanglauDAO.DanhSachTangLau();
+        //    }
+        //    catch
+        //    {
+        //        throw new Exception("Error!");
+        //    }
+        //}
     }
 }
