@@ -168,6 +168,7 @@
             this.btnTangLau.Id = 7;
             this.btnTangLau.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnTangLau.LargeGlyph")));
             this.btnTangLau.Name = "btnTangLau";
+            this.btnTangLau.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnTangLau_ItemClick);
             // 
             // btnTienNghi
             // 

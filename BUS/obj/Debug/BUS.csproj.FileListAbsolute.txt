@@ -16,3 +16,15 @@ E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\bin\Debu
 E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\obj\Debug\BUS.dll
 E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\BUS\obj\Debug\BUS.pdb
+C:\Users\PhamThanh\Desktop\SVN\QuanLyKhachSan\trunk\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\PhamThanh\Desktop\SVN\QuanLyKhachSan\trunk\BUS\obj\Debug\BUS.dll
+C:\Users\PhamThanh\Desktop\SVN\QuanLyKhachSan\trunk\BUS\obj\Debug\BUS.pdb
+E:\SVN\QuanLyKhachSan\trunk\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+E:\SVN\QuanLyKhachSan\trunk\BUS\obj\Debug\BUS.dll
+E:\SVN\QuanLyKhachSan\trunk\BUS\obj\Debug\BUS.pdb
+E:\SVN\QuanLyKhachSan\trunk\BUS\bin\Debug\BUS.dll
+E:\SVN\QuanLyKhachSan\trunk\BUS\bin\Debug\BUS.pdb
+E:\SVN\QuanLyKhachSan\trunk\BUS\bin\Debug\DAO.dll
+E:\SVN\QuanLyKhachSan\trunk\BUS\bin\Debug\DTO.dll
+E:\SVN\QuanLyKhachSan\trunk\BUS\bin\Debug\DAO.pdb
+E:\SVN\QuanLyKhachSan\trunk\BUS\bin\Debug\DTO.pdb

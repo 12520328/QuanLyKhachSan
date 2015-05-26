@@ -14,3 +14,14 @@ E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\bin\Debu
 E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\obj\Debug\DAO.dll
 E:\Study\Project\Qu_n L_ Kh_ch S_n\Quản Lý Khách Sạn\Sourcode\DAO\obj\Debug\DAO.pdb
+C:\Users\PhamThanh\Desktop\SVN\QuanLyKhachSan\trunk\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\PhamThanh\Desktop\SVN\QuanLyKhachSan\trunk\DAO\obj\Debug\DAO.dll
+C:\Users\PhamThanh\Desktop\SVN\QuanLyKhachSan\trunk\DAO\obj\Debug\DAO.pdb
+E:\SVN\QuanLyKhachSan\trunk\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+E:\SVN\QuanLyKhachSan\trunk\DAO\obj\Debug\DAO.dll
+E:\SVN\QuanLyKhachSan\trunk\DAO\obj\Debug\DAO.pdb
+E:\SVN\QuanLyKhachSan\trunk\DAO\bin\Debug\DAO.dll.config
+E:\SVN\QuanLyKhachSan\trunk\DAO\bin\Debug\DAO.dll
+E:\SVN\QuanLyKhachSan\trunk\DAO\bin\Debug\DAO.pdb
+E:\SVN\QuanLyKhachSan\trunk\DAO\bin\Debug\DTO.dll
+E:\SVN\QuanLyKhachSan\trunk\DAO\bin\Debug\DTO.pdb

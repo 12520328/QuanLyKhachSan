@@ -21,5 +21,11 @@ namespace Quanlykhachsan3lop.Màn_Hình
             Form f = new frmQuanLyPhong();
             f.Show();
         }
+
+        private void btnTangLau_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmQuanLyTangLau qlTangLau = new frmQuanLyTangLau();
+            qlTangLau.ShowDialog();
+        }
     }
 }

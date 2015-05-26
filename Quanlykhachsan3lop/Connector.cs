@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Quanlykhachsan3lop
 {
-    class Connector
+    public static class Connector
     {
-        private SqlConnection _conn;
+        private static SqlConnection _conn = new SqlConnection();
 
-        public void MoKetNoi()
+        public static void MoKetNoi()
         {
-            if (_conn == null)
+            if (_conn.State == ConnectionState.Closed)
             {
-                _conn = new SqlConnection(@"ChuoiKetNoi");
+                _conn = new SqlConnection(@"Data Source=THANHSANG\THANHSANG;Initial Catalog=QuanLyKhachSan;Integrated Security=True");
                 if (_conn.State == ConnectionState.Closed)
                 {
                     _conn.Open();
@@ -24,9 +24,9 @@ namespace Quanlykhachsan3lop
             }
         }
 
-        public void DongKetNoi()
+        public static void DongKetNoi()
         {
-            if ((_conn != null) && (_conn.State == ConnectionState.Open))
+            if (_conn.State == ConnectionState.Open)
             {
                 _conn.Close();
                 _conn.Dispose();
@@ -35,7 +35,7 @@ namespace Quanlykhachsan3lop
         
         
         // Trả về một DataTable .
-        public DataTable getDataTable(string sql)
+        public static DataTable getDataTable(string sql)
         {
 
             MoKetNoi();
@@ -53,13 +53,11 @@ namespace Quanlykhachsan3lop
         }
 
         // Thực thi câu lệnh truy vấn insert,delete,update
-        public void ExecuteNonQuery(string sql)
+        public static void ExecuteNonQuery(string sql)
         {
-
             MoKetNoi();
 
             SqlCommand cmd = new SqlCommand(sql, _conn);
-
             cmd.ExecuteNonQuery();
 
             DongKetNoi();
@@ -67,9 +65,8 @@ namespace Quanlykhachsan3lop
         }
 
         // Trả về DataReader
-        public SqlDataReader getDataReader(string sql)
+        public static SqlDataReader getDataReader(string sql)
         {
-
             MoKetNoi();
 
             SqlCommand com = new SqlCommand(sql, _conn);
@@ -78,7 +75,18 @@ namespace Quanlykhachsan3lop
             DongKetNoi();
 
             return dr;
+        }
 
+        // Trả về một String với câu lệnh select chỉ trả về một giá trị.
+        public static object getFistObject(string sql)
+        {
+            MoKetNoi();
+            SqlCommand com = new SqlCommand(sql, _conn);
+
+            object fistObject = com.ExecuteScalar();
+            DongKetNoi();
+
+            return fistObject;
         }
     }
 
